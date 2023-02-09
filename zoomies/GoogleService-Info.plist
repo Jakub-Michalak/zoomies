@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>248873926781-ndrsdo9vfsakuttctsgmg45rk4hcif1v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248873926781-ndrsdo9vfsakuttctsgmg45rk4hcif1v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDWP7KtwJBZNEfjqXhc730xdAlQthbNSpI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248873926781</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bonito.zoomies</string>
+	<key>PROJECT_ID</key>
+	<string>zoomies-b83b3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zoomies-b83b3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248873926781:ios:51447e09a5501ce7433114</string>
+</dict>
+</plist>

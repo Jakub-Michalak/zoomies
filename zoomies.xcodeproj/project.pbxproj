@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E54B4FE2936A0E7005808E0 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 4E54B4FD2936A0E7005808E0 /* FirebaseFunctions */; };
+		4E5B1F83298F21F700DA9314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B1F82298F21F700DA9314 /* Main.storyboard */; };
+		4E69C223290B223400B1572D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E69C222290B223300B1572D /* GoogleService-Info.plist */; };
+		4E69C227290B22BB00B1572D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E69C226290B22BB00B1572D /* FirebaseAuth */; };
+		4E69C22A290B22E200B1572D /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4E69C229290B22E200B1572D /* GoogleSignIn */; };
+		4E69C22C290B22E200B1572D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E69C22B290B22E200B1572D /* GoogleSignInSwift */; };
+		4E69C22E290B244600B1572D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C22D290B244600B1572D /* LoginView.swift */; };
+		4E69C230290B246A00B1572D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C22F290B246A00B1572D /* HomeView.swift */; };
+		4E69C232290B24E300B1572D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C231290B24E300B1572D /* LoginViewModel.swift */; };
+		4E69C234290B360F00B1572D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C233290B360F00B1572D /* SettingsView.swift */; };
+		4E69C23B290B4C2B00B1572D /* GuildViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C23A290B4C2B00B1572D /* GuildViewModel.swift */; };
+		4E69C23D290B4E2C00B1572D /* GuildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C23C290B4E2C00B1572D /* GuildModel.swift */; };
+		4E69C23F290B506300B1572D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4E69C23E290B506300B1572D /* FirebaseFirestore */; };
+		4E69C241290B507200B1572D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E69C240290B507200B1572D /* FirebaseFirestoreSwift */; };
+		4E70E681298EFE4800686462 /* CreateGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E70E680298EFE4800686462 /* CreateGoalView.swift */; };
+		4E70E683298F09B000686462 /* KickUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E70E682298F09B000686462 /* KickUserView.swift */; };
+		4E91693C29878A1300E33E42 /* GuildIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91693B29878A1300E33E42 /* GuildIntroView.swift */; };
+		4EBD47B8290AF5B2003A928C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD47B3290AF565003A928C /* ContentView.swift */; };
+		4ECA53D828F33FE9003B2672 /* zoomiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA53D728F33FE9003B2672 /* zoomiesApp.swift */; };
+		4ECA53DC28F33FEA003B2672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA53DB28F33FEA003B2672 /* Assets.xcassets */; };
+		4ECA53DF28F33FEA003B2672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA53DE28F33FEA003B2672 /* Preview Assets.xcassets */; };
+		4ECA53E128F33FEA003B2672 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA53E028F33FEA003B2672 /* Persistence.swift */; };
+		4ECA53E428F33FEA003B2672 /* zoomies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA53E228F33FEA003B2672 /* zoomies.xcdatamodeld */; };
+		4EDBCBFB2909F353006A4CD2 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBCBF82909F353006A4CD2 /* ProgressBarView.swift */; };
+		4EDBCBFC2909F353006A4CD2 /* GuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBCBF92909F353006A4CD2 /* GuildView.swift */; };
+		4EDBCBFD2909F353006A4CD2 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBCBFA2909F353006A4CD2 /* WorkoutsView.swift */; };
+		BA38894C2986E0E40064E571 /* WorkoutsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38894B2986E0E40064E571 /* WorkoutsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E5B1F82298F21F700DA9314 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4E69C222290B223300B1572D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E69C224290B224700B1572D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4E69C22D290B244600B1572D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E69C22F290B246A00B1572D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4E69C231290B24E300B1572D /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4E69C233290B360F00B1572D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4E69C23A290B4C2B00B1572D /* GuildViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildViewModel.swift; sourceTree = "<group>"; };
+		4E69C23C290B4E2C00B1572D /* GuildModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildModel.swift; sourceTree = "<group>"; };
+		4E70E680298EFE4800686462 /* CreateGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalView.swift; sourceTree = "<group>"; };
+		4E70E682298F09B000686462 /* KickUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickUserView.swift; sourceTree = "<group>"; };
+		4E91693B29878A1300E33E42 /* GuildIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildIntroView.swift; sourceTree = "<group>"; };
+		4EBD47B3290AF565003A928C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		4ECA53D428F33FE9003B2672 /* zoomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA53D728F33FE9003B2672 /* zoomiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoomiesApp.swift; sourceTree = "<group>"; };
+		4ECA53DB28F33FEA003B2672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECA53DE28F33FEA003B2672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ECA53E028F33FEA003B2672 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4ECA53E328F33FEA003B2672 /* zoomies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zoomies.xcdatamodel; sourceTree = "<group>"; };
+		4EDBCBF82909F353006A4CD2 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		4EDBCBF92909F353006A4CD2 /* GuildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuildView.swift; sourceTree = "<group>"; };
+		4EDBCBFA2909F353006A4CD2 /* WorkoutsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		BA38894A2986DF430064E571 /* zoomies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zoomies.entitlements; sourceTree = "<group>"; };
+		BA38894B2986E0E40064E571 /* WorkoutsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECA53D128F33FE9003B2672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E69C241290B507200B1572D /* FirebaseFirestoreSwift in Frameworks */,
+				4E69C22C290B22E200B1572D /* GoogleSignInSwift in Frameworks */,
+				4E69C227290B22BB00B1572D /* FirebaseAuth in Frameworks */,
+				4E54B4FE2936A0E7005808E0 /* FirebaseFunctions in Frameworks */,
+				4E69C22A290B22E200B1572D /* GoogleSignIn in Frameworks */,
+				4E69C23F290B506300B1572D /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5B1F7F298F1DAF00DA9314 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C233290B360F00B1572D /* SettingsView.swift */,
+				4E70E680298EFE4800686462 /* CreateGoalView.swift */,
+				4E70E682298F09B000686462 /* KickUserView.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4E5B1F80298F1DC900DA9314 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C22D290B244600B1572D /* LoginView.swift */,
+				4E69C231290B24E300B1572D /* LoginViewModel.swift */,
+				4E91693B29878A1300E33E42 /* GuildIntroView.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		4E5B1F81298F1DE900DA9314 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E69C23C290B4E2C00B1572D /* GuildModel.swift */,
+				4E69C22F290B246A00B1572D /* HomeView.swift */,
+				4EDBCBF92909F353006A4CD2 /* GuildView.swift */,
+				4E69C23A290B4C2B00B1572D /* GuildViewModel.swift */,
+				4EDBCBF82909F353006A4CD2 /* ProgressBarView.swift */,
+				4EDBCBFA2909F353006A4CD2 /* WorkoutsView.swift */,
+				BA38894B2986E0E40064E571 /* WorkoutsModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E69C235290B40FF00B1572D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ECA53CB28F33FE9003B2672 = {
+			isa = PBXGroup;
+			children = (
+				4ECA53D628F33FE9003B2672 /* zoomies */,
+				4ECA53D528F33FE9003B2672 /* Products */,
+				4E69C235290B40FF00B1572D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECA53D528F33FE9003B2672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA53D428F33FE9003B2672 /* zoomies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECA53D628F33FE9003B2672 /* zoomies */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA53D728F33FE9003B2672 /* zoomiesApp.swift */,
+				4EBD47B3290AF565003A928C /* ContentView.swift */,
+				4E5B1F81298F1DE900DA9314 /* Home */,
+				4E5B1F80298F1DC900DA9314 /* Intro */,
+				4E5B1F7F298F1DAF00DA9314 /* Settings */,
+				BA38894A2986DF430064E571 /* zoomies.entitlements */,
+				4E69C224290B224700B1572D /* Info.plist */,
+				4E69C222290B223300B1572D /* GoogleService-Info.plist */,
+				4ECA53DB28F33FEA003B2672 /* Assets.xcassets */,
+				4ECA53E028F33FEA003B2672 /* Persistence.swift */,
+				4ECA53E228F33FEA003B2672 /* zoomies.xcdatamodeld */,
+				4ECA53DD28F33FEA003B2672 /* Preview Content */,
+				4E5B1F82298F21F700DA9314 /* Main.storyboard */,
+			);
+			path = zoomies;
+			sourceTree = "<group>";
+		};
+		4ECA53DD28F33FEA003B2672 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA53DE28F33FEA003B2672 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECA53D328F33FE9003B2672 /* zoomies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA53E728F33FEA003B2672 /* Build configuration list for PBXNativeTarget "zoomies" */;
+			buildPhases = (
+				4ECA53D028F33FE9003B2672 /* Sources */,
+				4ECA53D128F33FE9003B2672 /* Frameworks */,
+				4ECA53D228F33FE9003B2672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoomies;
+			packageProductDependencies = (
+				4E69C226290B22BB00B1572D /* FirebaseAuth */,
+				4E69C229290B22E200B1572D /* GoogleSignIn */,
+				4E69C22B290B22E200B1572D /* GoogleSignInSwift */,
+				4E69C23E290B506300B1572D /* FirebaseFirestore */,
+				4E69C240290B507200B1572D /* FirebaseFirestoreSwift */,
+				4E54B4FD2936A0E7005808E0 /* FirebaseFunctions */,
+			);
+			productName = zoomies;
+			productReference = 4ECA53D428F33FE9003B2672 /* zoomies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECA53CC28F33FE9003B2672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4ECA53D328F33FE9003B2672 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4ECA53CF28F33FE9003B2672 /* Build configuration list for PBXProject "zoomies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECA53CB28F33FE9003B2672;
+			packageReferences = (
+				4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4E69C228290B22E200B1572D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 4ECA53D528F33FE9003B2672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECA53D328F33FE9003B2672 /* zoomies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECA53D228F33FE9003B2672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA53DF28F33FEA003B2672 /* Preview Assets.xcassets in Resources */,
+				4ECA53DC28F33FEA003B2672 /* Assets.xcassets in Resources */,
+				4E69C223290B223400B1572D /* GoogleService-Info.plist in Resources */,
+				4E5B1F83298F21F700DA9314 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECA53D028F33FE9003B2672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E69C23B290B4C2B00B1572D /* GuildViewModel.swift in Sources */,
+				4E70E681298EFE4800686462 /* CreateGoalView.swift in Sources */,
+				4E69C230290B246A00B1572D /* HomeView.swift in Sources */,
+				4ECA53E128F33FEA003B2672 /* Persistence.swift in Sources */,
+				4EDBCBFC2909F353006A4CD2 /* GuildView.swift in Sources */,
+				4ECA53E428F33FEA003B2672 /* zoomies.xcdatamodeld in Sources */,
+				4E69C23D290B4E2C00B1572D /* GuildModel.swift in Sources */,
+				4EBD47B8290AF5B2003A928C /* ContentView.swift in Sources */,
+				4ECA53D828F33FE9003B2672 /* zoomiesApp.swift in Sources */,
+				4E70E683298F09B000686462 /* KickUserView.swift in Sources */,
+				4EDBCBFD2909F353006A4CD2 /* WorkoutsView.swift in Sources */,
+				4E69C22E290B244600B1572D /* LoginView.swift in Sources */,
+				4E91693C29878A1300E33E42 /* GuildIntroView.swift in Sources */,
+				4E69C232290B24E300B1572D /* LoginViewModel.swift in Sources */,
+				BA38894C2986E0E40064E571 /* WorkoutsModel.swift in Sources */,
+				4EDBCBFB2909F353006A4CD2 /* ProgressBarView.swift in Sources */,
+				4E69C234290B360F00B1572D /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4ECA53E528F33FEA003B2672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ECA53E628F33FEA003B2672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECA53E828F33FEA003B2672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = zoomies/zoomies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zoomies/Preview Content\"";
+				DEVELOPMENT_TEAM = A29X3G98B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zoomies/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "zoomies needs access to your workout data to index your trainings and calculate scores.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "zoomies might need to write health data as well.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonito.zoomies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4ECA53E928F33FEA003B2672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = zoomies/zoomies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zoomies/Preview Content\"";
+				DEVELOPMENT_TEAM = A29X3G98B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zoomies/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "zoomies needs access to your workout data to index your trainings and calculate scores.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "zoomies might need to write health data as well.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonito.zoomies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECA53CF28F33FE9003B2672 /* Build configuration list for PBXProject "zoomies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA53E528F33FEA003B2672 /* Debug */,
+				4ECA53E628F33FEA003B2672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA53E728F33FEA003B2672 /* Build configuration list for PBXNativeTarget "zoomies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA53E828F33FEA003B2672 /* Debug */,
+				4ECA53E928F33FEA003B2672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		4E69C228290B22E200B1572D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E54B4FD2936A0E7005808E0 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		4E69C226290B22BB00B1572D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4E69C229290B22E200B1572D /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C228290B22E200B1572D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		4E69C22B290B22E200B1572D /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C228290B22E200B1572D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		4E69C23E290B506300B1572D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4E69C240290B507200B1572D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E69C225290B22BB00B1572D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4ECA53E228F33FEA003B2672 /* zoomies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4ECA53E328F33FEA003B2672 /* zoomies.xcdatamodel */,
+			);
+			currentVersion = 4ECA53E328F33FEA003B2672 /* zoomies.xcdatamodel */;
+			path = zoomies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4ECA53CC28F33FE9003B2672 /* Project object */;
+}
